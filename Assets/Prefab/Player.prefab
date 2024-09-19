@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1537717532464479936}
   - component: {fileID: 1150861047203804418}
   - component: {fileID: 2590075128211604712}
+  - component: {fileID: -5993163494746620366}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -126,3 +127,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
+--- !u!114 &-5993163494746620366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344042456388065587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53e4273f2e47cc4fafd0b84608997a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 0
+  switchKey: 32
+  wallCollider: {fileID: 0}
+  humanBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
+  ghostBackgroundColor: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 1}
+  humanSprite: {fileID: 1706258842, guid: ed4edcc13cc60764181cc25a7679faf6, type: 3}
+  ghostSprite: {fileID: 1363377880, guid: ed4edcc13cc60764181cc25a7679faf6, type: 3}
+  maxSwitchCount: 5
+  switchCooldown: 1
+  fadeDuration: 1
+  switchCountText: {fileID: 0}
