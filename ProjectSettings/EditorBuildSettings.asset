@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Naoki Scene.unity
+    guid: 691d05beee52e79479fd861bc83e6719
+  - enabled: 1
+    path: Assets/Scenes/GameOverScene.unity
+    guid: e607f26bfe47cda408363c858cdcf7f9
   m_configObjects: {}
